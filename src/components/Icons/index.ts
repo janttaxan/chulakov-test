@@ -1,0 +1,11 @@
+export { IconReact } from './IconReact';
+export { ImageCat } from './ImageCat';
+export { ImageDog } from './ImageDog';
+export { ImageFox } from './ImageFox';
+export { ImageKoala } from './ImageKoala';
+export { ImageLion } from './ImageLion';
+export { ImageOwl } from './ImageOwl';
+export { ImagePenguin } from './ImagePenguin';
+export { ImagePig } from './ImagePig';
+export { ImageRaccoon } from './ImageRaccoon';
+export { ImageSheep } from './ImageSheep';

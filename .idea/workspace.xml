@@ -2,7 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb9be5bd-868c-4220-87b7-5ffdaccafd79" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/api/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/request.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Icons/IconReact.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Icons/ImageCat.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Icons/ImageDog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Icons/ImageFox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Icons/ImageKoala.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Icons/ImageLion.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Icons/ImageOwl.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Icons/ImagePenguin.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Icons/ImagePig.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Icons/ImageRaccoon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Icons/ImageSheep.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Icons/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/IRequestData.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/IRootState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/EActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/TActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/listRequestAction.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/videos/boy.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/videos/shoe.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +39,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pRVmQZ4XwKwWZp0FBkXcBLbJ9m" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,6 +54,14 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\Asus\Documents\Pet projects\chulakov-test\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Asus\Documents\Pet projects\chulakov-test\src\api" />
+      <recent name="C:\Users\Asus\Documents\Pet projects\chulakov-test\src\store" />
+      <recent name="C:\Users\Asus\Documents\Pet projects\chulakov-test\src" />
+      <recent name="C:\Users\Asus\Documents\Pet projects\chulakov-test\src\img" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -53,6 +89,10 @@
       <option name="presentableId" value="Default" />
       <updated>1615146052798</updated>
       <workItem from="1615146055840" duration="854000" />
+      <workItem from="1615146980500" duration="2319000" />
+      <workItem from="1615149711573" duration="614000" />
+      <workItem from="1615150396259" duration="269000" />
+      <workItem from="1615150695866" duration="4398000" />
     </task>
     <servers />
   </component>
@@ -69,5 +109,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
