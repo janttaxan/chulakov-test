@@ -1,3 +1,8 @@
-import { TListRequestAction } from './listRequestAction';
+import { TCardListRequest } from './cardListRequest';
+import { TCardListRequestSuccess } from './cardListRequestSuccess';
+import { TCardListRequestError } from './cardListRequestError';
 
-export type TActions = TListRequestAction
+export type TActions =
+  TCardListRequest |
+  TCardListRequestSuccess |
+  TCardListRequestError
