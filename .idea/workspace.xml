@@ -2,31 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb9be5bd-868c-4220-87b7-5ffdaccafd79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/CardItem.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/CardItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CardList/CardList.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CardList/CardList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CardList/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CardListContainer/CardListContainer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CardListContainer/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/Layout.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/cardListRequestError.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/cardListRequestFetch.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/cardListRequestSuccess.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/Age/Age.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/Age/Age.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/Age/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/AvatarName/AvatarName.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/AvatarName/AvatarName.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/AvatarName/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums/EAvatar.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/declOfNum.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/request.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/request.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardItem/CardItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/CardItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardItem/CardItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/CardItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/IRootState.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/IRootState.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/EActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/EActions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/TActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/TActions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/listRequestAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/cardListRequest.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/IRequestData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/IRequestData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/EActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/EActions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/cardListRequest.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/cardListRequest.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/cardListRequestError.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/cardListRequestError.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/cardListRequestSuccess.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/cardListRequestSuccess.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +55,7 @@
       <recent name="C:\Users\Asus\Documents\Pet projects\chulakov-test\src\store\actions" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Asus\Documents\Pet projects\chulakov-test\src\enums" />
       <recent name="C:\Users\Asus\Documents\Pet projects\chulakov-test\src\api" />
       <recent name="C:\Users\Asus\Documents\Pet projects\chulakov-test\src\store" />
       <recent name="C:\Users\Asus\Documents\Pet projects\chulakov-test\src" />
@@ -96,7 +93,9 @@
       <workItem from="1615150396259" duration="269000" />
       <workItem from="1615150695866" duration="4479000" />
       <workItem from="1615221371906" duration="3632000" />
-      <workItem from="1615235206184" duration="5446000" />
+      <workItem from="1615235206184" duration="6247000" />
+      <workItem from="1615285176686" duration="632000" />
+      <workItem from="1615321847612" duration="8324000" />
     </task>
     <servers />
   </component>

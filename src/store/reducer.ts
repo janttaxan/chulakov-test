@@ -2,7 +2,7 @@ import { Reducer } from 'redux';
 import { initialState } from './store';
 import { IRootState } from '../interfaces/IRootState';
 import { TActions } from './actions/TActions';
-import { EActions } from './actions/EActions';
+import { EActions } from '../enums/EActions';
 
 export const rootReducer: Reducer<IRootState, TActions> = (state = initialState, action) => {
   switch (action.type) {

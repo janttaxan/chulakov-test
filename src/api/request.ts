@@ -16,7 +16,7 @@ export const getData = (): Promise<IRequestData[]> => (
     }
     const delay = Math.round(Math.random() * 1000);
     setTimeout(() => {
-      resolve(data);
+      resolve(data as IRequestData[]);
     }, delay);
   })
 );

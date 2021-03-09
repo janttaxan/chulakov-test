@@ -1,3 +1,25 @@
 .cardItem {
-  display: flex;
+  background-color: var(--base-0);
+  padding: 24px;
+  border-radius: 12px;
+}
+
+.avatarName {
+  margin: 0 0 16px;
+}
+
+.phone {
+  display: inline-block;
+  margin: 4px 0 8px;
+  color: var(--main-500);
+  font-weight: 500;
+}
+
+.phone:hover {
+  box-shadow: 0 1px 0 0 currentColor;
+}
+
+.phrase {
+  color: var(--base-300);
+  max-width: 320px;
 }

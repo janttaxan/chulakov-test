@@ -1,5 +1,5 @@
 import { ActionCreator } from 'redux';
-import { EActions } from './EActions';
+import { EActions } from '../../enums/EActions';
 
 export type TCardListRequest = {
   type: typeof EActions.CARD_LIST_REQUEST;

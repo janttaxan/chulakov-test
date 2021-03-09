@@ -1,4 +1,4 @@
-import { EActions } from './EActions';
+import { EActions } from '../../enums/EActions';
 import { IRequestData } from '../../interfaces/IRequestData';
 import { ActionCreator } from 'redux';
 

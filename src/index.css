@@ -1,10 +1,16 @@
 :root {
-  --black: #111;
-  --white: #ffffff;
-  --red: #f15151;
-  --brand-primary: #0070f3;
-  --grey69: #696969;
-  --greyEA: #eaeaea;
+  --main-400: #4959FF;
+  --main-500: #1B2FFF;
+  --secondary-100: #FED8EE;
+  --secondary-400: #F84AB3;
+  --secondary-500: #F71D9F;
+  --base-0: #FFF;
+  --base-50: #F3F4F7;
+  --base-200: #99A7B5;
+  --base-300: #677B8F;
+  --base-500: #012345;
+  --base-600: #011C37;
+  --error: #F15151;
 
   --shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
 }
@@ -13,7 +19,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
 }
 
 body {
@@ -23,6 +28,10 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--base-50);
+  color: var(--base-500);
+  font-size: 14px;
+  line-height: 140%;
 }
 
 ul {
