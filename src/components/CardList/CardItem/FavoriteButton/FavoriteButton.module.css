@@ -1,0 +1,53 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 24px;
+  background-color: var(--base-0);
+  border: 1px solid var(--base-200);
+  border-radius: 4px;
+  outline: none;
+  opacity: 0.8;
+  transition: transform 0.1s;
+}
+
+.btn.active {
+  background-color: var(--secondary-400);
+  border-color: transparent;
+}
+
+.btn:active {
+  transform: scale(0.96);
+}
+
+.btn:hover {
+  border-color: var(--base-300);
+}
+
+.btn:hover .svg path {
+  fill: var(--base-300);
+}
+
+.btn.active:hover {
+  background-color: var(--secondary-500);
+  fill: var(--base-0);
+  border-color: transparent;
+}
+
+.btn.active:hover .svg path {
+  fill: var(--base-0);
+}
+
+.svg {
+  width: 12px;
+  height: 12px;
+}
+
+.svg path {
+  fill: var(--base-200);
+}
+
+.svg.active path {
+  fill: var(--base-0);
+}

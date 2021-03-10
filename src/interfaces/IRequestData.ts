@@ -1,4 +1,5 @@
 import { EAvatar } from '../enums/EAvatar';
+import { EVideos } from '../enums/EVideos';
 
 export interface IRequestData {
   id: number;
@@ -8,5 +9,5 @@ export interface IRequestData {
   phone: string;
   image: EAvatar;
   phrase: string;
-  video?: string;
+  video?: EVideos;
 }

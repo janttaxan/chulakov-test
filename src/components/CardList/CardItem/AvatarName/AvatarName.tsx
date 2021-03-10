@@ -38,12 +38,12 @@ function getAvatar(avatar: EAvatar): JSX.Element {
   }
 }
 
-interface IAvatarProps {
+interface IAvatarNameProps {
   image: EAvatar;
   name: string;
 }
 
-export const AvatarName = ({ image, name }: IAvatarProps) => (
+export const AvatarName = ({ image, name }: IAvatarNameProps) => (
   <div className={styles.avatarName}>
     <div className={styles.image}>
       {getAvatar(image)}
