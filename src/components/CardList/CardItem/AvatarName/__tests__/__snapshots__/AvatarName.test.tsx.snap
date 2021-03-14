@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AvatarName should render with "Cat" avatar 1`] = `
+<div
+  className="avatarName"
+>
+  <div
+    className="image"
+  >
+    <ImageCat />
+  </div>
+  <div
+    className="name"
+  >
+    John Doe
+  </div>
+</div>
+`;
+
+exports[`AvatarName should render with "Dog" avatar 1`] = `
+<div
+  className="avatarName"
+>
+  <div
+    className="image"
+  >
+    <ImageDog />
+  </div>
+  <div
+    className="name"
+  >
+    John Doe
+  </div>
+</div>
+`;
+
+exports[`AvatarName should render with "Fox" avatar 1`] = `
+<div
+  className="avatarName"
+>
+  <div
+    className="image"
+  >
+    <ImageFox />
+  </div>
+  <div
+    className="name"
+  >
+    John Doe
+  </div>
+</div>
+`;
+
+exports[`AvatarName should render with "Koala" avatar 1`] = `
+<div
+  className="avatarName"
+>
+  <div
+    className="image"
+  >
+    <ImageKoala />
+  </div>
+  <div
+    className="name"
+  >
+    John Doe
+  </div>
+</div>
+`;
+
+exports[`AvatarName should render with "Lion" avatar 1`] = `
+<div
+  className="avatarName"
+>
+  <div
+    className="image"
+  >
+    <ImageLion />
+  </div>
+  <div
+    className="name"
+  >
+    John Doe
+  </div>
+</div>
+`;
+
+exports[`AvatarName should render with "Owl" avatar 1`] = `
+<div
+  className="avatarName"
+>
+  <div
+    className="image"
+  >
+    <ImageOwl />
+  </div>
+  <div
+    className="name"
+  >
+    John Doe
+  </div>
+</div>
+`;
+
+exports[`AvatarName should render with "Penguin" avatar 1`] = `
+<div
+  className="avatarName"
+>
+  <div
+    className="image"
+  >
+    <ImagePenguin />
+  </div>
+  <div
+    className="name"
+  >
+    John Doe
+  </div>
+</div>
+`;
+
+exports[`AvatarName should render with "Pig" avatar 1`] = `
+<div
+  className="avatarName"
+>
+  <div
+    className="image"
+  >
+    <ImagePig />
+  </div>
+  <div
+    className="name"
+  >
+    John Doe
+  </div>
+</div>
+`;
+
+exports[`AvatarName should render with "Raccoon" avatar 1`] = `
+<div
+  className="avatarName"
+>
+  <div
+    className="image"
+  >
+    <ImageRaccoon />
+  </div>
+  <div
+    className="name"
+  >
+    John Doe
+  </div>
+</div>
+`;
+
+exports[`AvatarName should render with "Sheep" avatar 1`] = `
+<div
+  className="avatarName"
+>
+  <div
+    className="image"
+  >
+    <ImageSheep />
+  </div>
+  <div
+    className="name"
+  >
+    John Doe
+  </div>
+</div>
+`;

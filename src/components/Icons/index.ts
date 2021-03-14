@@ -1,4 +1,3 @@
-export { IconReact } from './IconReact';
 export { ImageCat } from './ImageCat';
 export { ImageDog } from './ImageDog';
 export { ImageFox } from './ImageFox';

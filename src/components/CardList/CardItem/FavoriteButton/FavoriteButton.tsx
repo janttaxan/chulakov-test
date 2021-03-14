@@ -1,12 +1,13 @@
 import styles from './FavoriteButton.module.css';
 import classNames from 'classnames';
+import { NOOP } from '../../../../utils/NOOP';
 
 interface IFavoriteButtonProps {
   isFavorite: boolean;
-  onlike: () => void;
+  onlike?: () => void;
 }
 
-export const FavoriteButton = ({ isFavorite, onlike }: IFavoriteButtonProps) => {
+export const FavoriteButton = ({ isFavorite, onlike = NOOP }: IFavoriteButtonProps) => {
 
   const buttonClasses = classNames(
     styles.btn,
