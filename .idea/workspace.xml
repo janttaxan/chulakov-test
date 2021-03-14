@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb9be5bd-868c-4220-87b7-5ffdaccafd79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setupTest.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/__tests__/Layout.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardItem/CardItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/CardItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardItem/FavoriteButton/FavoriteButton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/FavoriteButton/FavoriteButton.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardItem/FavoriteButton/FavoriteButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/FavoriteButton/FavoriteButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardListContainer/CardListContainer.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardListContainer/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +78,7 @@
       <workItem from="1615235206184" duration="6247000" />
       <workItem from="1615285176686" duration="632000" />
       <workItem from="1615321847612" duration="8324000" />
-      <workItem from="1615743377657" duration="5567000" />
+      <workItem from="1615743377657" duration="5993000" />
     </task>
     <servers />
   </component>
