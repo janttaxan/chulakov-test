@@ -5,7 +5,7 @@ import { applyMiddleware, createStore } from 'redux';
 import thunk from 'redux-thunk';
 import { Provider } from 'react-redux';
 import { Layout } from './components/Layout/Layout';
-import { CardList } from './components/CardList';
+import { CardListContainer } from './components/CardListContainer';
 
 const store = createStore(
   rootReducer,
@@ -16,7 +16,7 @@ function App() {
   return (
     <Provider store={store}>
       <Layout>
-        <CardList data={store.getState().cardList}/>
+        <CardListContainer/>
       </Layout>
     </Provider>
   );

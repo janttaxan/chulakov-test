@@ -8,7 +8,7 @@ import { Video } from '../../Video';
 
 
 interface ICardItemProps extends Omit<IRequestData, 'id'> {
-  onLike: (id: number) => void;
+  onLike?: (id: number) => void;
 }
 
 export const CardItem = (props: ICardItemProps) => {
