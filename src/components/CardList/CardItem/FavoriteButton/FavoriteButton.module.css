@@ -17,10 +17,6 @@
   border-color: transparent;
 }
 
-.btn:active {
-  transform: scale(0.96);
-}
-
 .btn:hover {
   border-color: var(--base-300);
 }

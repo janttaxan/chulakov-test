@@ -6,8 +6,13 @@ import { FavoriteButton } from './FavoriteButton';
 import classNames from 'classnames';
 import { Video } from '../../Video';
 
-export const CardItem = (props: IRequestData) => {
-  const { id, name, age, favourite, image, phone, phrase, video } = props;
+
+interface ICardItemProps extends Omit<IRequestData, 'id'> {
+  onLike: (id: number) => void;
+}
+
+export const CardItem = (props: ICardItemProps) => {
+  const { name, age, favourite, image, phone, phrase, video, onLike } = props;
 
   const cardItemClasses = classNames(
     styles.cardItem,
@@ -24,7 +29,7 @@ export const CardItem = (props: IRequestData) => {
         <a className={styles.phone} href={`tel:${phone}`}>{phone}</a>
         <p className={styles.phrase}>{phrase}</p>
         <div className={styles.favoriteBtn}>
-          <FavoriteButton isFavorite={favourite} onClick={() => console.log('like')}/>
+          <FavoriteButton isFavorite={favourite} onlike={() => onLike}/>
         </div>
       </div>
       {video && (

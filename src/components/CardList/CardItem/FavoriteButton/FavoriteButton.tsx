@@ -3,10 +3,10 @@ import classNames from 'classnames';
 
 interface IFavoriteButtonProps {
   isFavorite: boolean;
-  onClick: () => void;
+  onlike: () => void;
 }
 
-export const FavoriteButton = ({ isFavorite, onClick }: IFavoriteButtonProps) => {
+export const FavoriteButton = ({ isFavorite, onlike }: IFavoriteButtonProps) => {
 
   const buttonClasses = classNames(
     styles.btn,
@@ -19,7 +19,7 @@ export const FavoriteButton = ({ isFavorite, onClick }: IFavoriteButtonProps) =>
   );
 
   return (
-    <button className={buttonClasses} onClick={onClick}>
+    <button className={buttonClasses} onClick={onlike}>
       <svg
         className={svgClasses}
         width="32"

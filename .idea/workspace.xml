@@ -2,21 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb9be5bd-868c-4220-87b7-5ffdaccafd79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/FavoriteButton/FavoriteButton.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/FavoriteButton/FavoriteButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/FavoriteButton/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Video/Video.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Video/Video.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Video/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/EVideos.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/checkVisibleElement.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setupTest.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Layout/__tests__/Layout.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardItem/AvatarName/AvatarName.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/AvatarName/AvatarName.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardItem/CardItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/CardItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CardList/CardItem/CardItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/CardItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/IRequestData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/IRequestData.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardItem/FavoriteButton/FavoriteButton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/FavoriteButton/FavoriteButton.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardItem/FavoriteButton/FavoriteButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/FavoriteButton/FavoriteButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardListContainer/CardListContainer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardListContainer/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,17 +24,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1pRVmQZ4XwKwWZp0FBkXcBLbJ9m" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -53,7 +40,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/store/actions" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="C:\Users\Asus\Documents\Pet projects\chulakov-test\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -102,7 +89,7 @@
       <workItem from="1615235206184" duration="6247000" />
       <workItem from="1615285176686" duration="632000" />
       <workItem from="1615321847612" duration="8324000" />
-      <workItem from="1615373438454" duration="13474000" />
+      <workItem from="1615743377657" duration="5567000" />
     </task>
     <servers />
   </component>

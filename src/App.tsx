@@ -4,8 +4,8 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import { applyMiddleware, createStore } from 'redux';
 import thunk from 'redux-thunk';
 import { Provider } from 'react-redux';
-import { CardListContainer } from './components/CardListContainer';
 import { Layout } from './components/Layout/Layout';
+import { CardList } from './components/CardList';
 
 const store = createStore(
   rootReducer,
@@ -16,7 +16,7 @@ function App() {
   return (
     <Provider store={store}>
       <Layout>
-        <CardListContainer/>
+        <CardList data={store.getState().cardList}/>
       </Layout>
     </Provider>
   );
