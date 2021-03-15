@@ -1,4 +1,15 @@
 {
+  "name": "chulakov-test",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "eject": "react-scripts eject"
+  },
+  "version": "0.1.0",
+  "homepage": "./",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -43,15 +54,5 @@
       "react-app",
       "react-app/jest"
     ]
-  },
-  "name": "chulakov-test",
-  "private": true,
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "jest",
-    "test:coverage": "jest --coverage",
-    "eject": "react-scripts eject"
-  },
-  "version": "0.1.0"
+  }
 }

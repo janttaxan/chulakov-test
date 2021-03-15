@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb9be5bd-868c-4220-87b7-5ffdaccafd79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/FavoriteButton/__tests__/FavoriteButton.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/__tests__/CardItem.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/ICardListState.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/cardList/actions/TCardListActions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/cardList/actions/addToFavorites.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/cardList/actions/removeFromFavorites.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/cardList/reducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/__tests__/NOOP.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardItem/CardItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/CardItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardItem/FavoriteButton/FavoriteButton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/FavoriteButton/FavoriteButton.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardItem/FavoriteButton/FavoriteButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/FavoriteButton/FavoriteButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardListContainer/CardListContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardListContainer/CardListContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enums/EActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/EActions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/IRootState.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/IRootState.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/TActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/TActions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/cardListRequest.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/cardList/actions/cardListRequest.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/cardListRequestError.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/cardList/actions/cardListRequestError.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/cardListRequestFetch.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/cardList/actions/cardListRequestFetch.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/cardListRequestSuccess.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/cardList/actions/cardListRequestSuccess.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +11,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pRVmQZ4XwKwWZp0FBkXcBLbJ9m" />
@@ -197,7 +181,7 @@
       <workItem from="1615321847612" duration="8324000" />
       <workItem from="1615743377657" duration="5993000" />
       <workItem from="1615749459046" duration="7466000" />
-      <workItem from="1615800324295" duration="25363000" />
+      <workItem from="1615800324295" duration="26013000" />
     </task>
     <servers />
   </component>
