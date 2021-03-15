@@ -1,4 +1,4 @@
-import { EActions } from '../../enums/EActions';
+import { EActions } from '../../../enums/EActions';
 import { ActionCreator } from 'redux';
 
 export type TCardListRequestError = {

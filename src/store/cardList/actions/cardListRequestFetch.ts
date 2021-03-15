@@ -1,8 +1,8 @@
 import { ThunkAction } from 'redux-thunk';
-import { IRootState } from '../../interfaces/IRootState';
+import { IRootState } from '../../../interfaces/IRootState';
 import { Action } from 'redux';
 import { cardListRequest } from './cardListRequest';
-import { getData } from '../../api/request';
+import { getData } from '../../../api/request';
 import { cardListRequestSuccess } from './cardListRequestSuccess';
 import { cardListRequestError } from './cardListRequestError';
 

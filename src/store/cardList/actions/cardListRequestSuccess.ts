@@ -1,5 +1,5 @@
-import { EActions } from '../../enums/EActions';
-import { IRequestData } from '../../interfaces/IRequestData';
+import { EActions } from '../../../enums/EActions';
+import { IRequestData } from '../../../interfaces/IRequestData';
 import { ActionCreator } from 'redux';
 
 export type TCardListRequestSuccess = {

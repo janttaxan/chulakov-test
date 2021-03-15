@@ -1,14 +1,13 @@
 import styles from './CardItem.module.css';
+import classNames from 'classnames';
 import { IRequestData } from '../../../interfaces/IRequestData';
 import { AvatarName } from './AvatarName';
 import { Age } from './Age';
 import { FavoriteButton } from './FavoriteButton';
-import classNames from 'classnames';
 import { Video } from '../../Video';
 
-
 interface ICardItemProps extends Omit<IRequestData, 'id'> {
-  onLike?: (id: number) => void;
+  onLike: () => void;
 }
 
 export const CardItem = (props: ICardItemProps) => {
@@ -29,7 +28,7 @@ export const CardItem = (props: ICardItemProps) => {
         <a className={styles.phone} href={`tel:${phone}`}>{phone}</a>
         <p className={styles.phrase}>{phrase}</p>
         <div className={styles.favoriteBtn}>
-          <FavoriteButton isFavorite={favourite} onlike={() => onLike}/>
+          <FavoriteButton isFavorite={favourite} onClick={onLike}/>
         </div>
       </div>
       {video && (

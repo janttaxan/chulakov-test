@@ -8,13 +8,21 @@
   border: 1px solid var(--base-200);
   border-radius: 4px;
   outline: none;
-  opacity: 0.8;
-  transition: transform 0.1s;
+  overflow: hidden;
+  transition: background-color 0.2s, border-color 0.2s;
 }
 
 .btn.active {
   background-color: var(--secondary-400);
   border-color: transparent;
+}
+
+.btn:active .svg {
+  transform: scale(1.25);
+}
+
+.btn.active:active {
+  background-color: var(--main-400);
 }
 
 .btn:hover {
@@ -38,6 +46,7 @@
 .svg {
   width: 12px;
   height: 12px;
+  transition: fill 0.2s, transform 0.4s;
 }
 
 .svg path {

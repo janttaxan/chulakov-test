@@ -1,7 +1,5 @@
-import { IRequestData } from './IRequestData';
+import { ICardListState } from './ICardListState';
 
 export interface IRootState {
-  cardList: IRequestData[];
-  loading: boolean;
-  errorValue: string;
+  cardList: ICardListState;
 }

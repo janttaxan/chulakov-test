@@ -3,12 +3,12 @@ import { IRootState } from '../../interfaces/IRootState';
 import { IRequestData } from '../../interfaces/IRequestData';
 import { CardList } from '../CardList';
 import React, { useEffect } from 'react';
-import { cardListRequestFetch } from '../../store/actions/cardListRequestFetch';
+import { cardListRequestFetch } from '../../store/cardList/actions/cardListRequestFetch';
 
 export const CardListContainer = () => {
-  const cardList = useSelector<IRootState, IRequestData[]>(state => state.cardList);
-  const loading = useSelector<IRootState, boolean>(state => state.loading);
-  const errorValue = useSelector<IRootState, string>(state => state.errorValue);
+  const cards = useSelector<IRootState, IRequestData[]>(state => state.cardList.cards);
+  const loading = useSelector<IRootState, boolean>(state => state.cardList.isLoading);
+  const errorValue = useSelector<IRootState, string>(state => state.cardList.errorValue);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -21,7 +21,7 @@ export const CardListContainer = () => {
 
   return (
     <>
-      <CardList data={cardList}/>
+      <CardList data={cards}/>
       {loading && !errorValue && <p>Загрузка...</p>}
       {errorValue && (
         <>

@@ -1,13 +1,12 @@
 import styles from './FavoriteButton.module.css';
 import classNames from 'classnames';
-import { NOOP } from '../../../../utils/NOOP';
 
 interface IFavoriteButtonProps {
   isFavorite: boolean;
-  onlike?: () => void;
+  onClick: () => void;
 }
 
-export const FavoriteButton = ({ isFavorite, onlike = NOOP }: IFavoriteButtonProps) => {
+export const FavoriteButton = ({ isFavorite, onClick }: IFavoriteButtonProps) => {
 
   const buttonClasses = classNames(
     styles.btn,
@@ -20,7 +19,7 @@ export const FavoriteButton = ({ isFavorite, onlike = NOOP }: IFavoriteButtonPro
   );
 
   return (
-    <button className={buttonClasses} onClick={onlike}>
+    <button className={buttonClasses} onClick={onClick}>
       <svg
         className={svgClasses}
         width="32"

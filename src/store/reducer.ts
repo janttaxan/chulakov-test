@@ -3,26 +3,20 @@ import { initialState } from './store';
 import { IRootState } from '../interfaces/IRootState';
 import { TActions } from './actions/TActions';
 import { EActions } from '../enums/EActions';
+import { cardListReducer } from './cardList/reducer';
 
-export const rootReducer: Reducer<IRootState, TActions> = (state = initialState, action) => {
+export const rootReducer: Reducer<IRootState, TActions> = (
+  state = initialState, action,
+) => {
   switch (action.type) {
     case EActions.CARD_LIST_REQUEST:
-      return {
-        ...state,
-        loading: true,
-        errorValue: '',
-      };
     case EActions.CARD_LIST_REQUEST_SUCCESS:
-      return {
-        ...state,
-        cardList: action.cardList,
-        loading: false,
-      };
     case EActions.CARD_LIST_REQUEST_ERROR:
+    case EActions.ADD_TO_FAVORITES:
+    case EActions.REMOVE_FROM_FAVORITES:
       return {
         ...state,
-        errorValue: action.errorValue,
-        loading: false,
+        cardList: cardListReducer(state.cardList, action),
       };
     default:
       return state;
