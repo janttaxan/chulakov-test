@@ -3,7 +3,8 @@ import { IRequestData } from '../interfaces/IRequestData';
 
 /** True = 75%, False = 25% */
 const rejectByChance = (): boolean => {
-  return Math.random() <= 0.25;
+  // return Math.random() <= 0.25;
+  return false;
 };
 
 /** Emulate request */

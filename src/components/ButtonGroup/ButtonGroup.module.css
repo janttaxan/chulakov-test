@@ -1,0 +1,19 @@
+.buttonGroup {
+  display: flex;
+}
+
+.buttonGroup > button:not(:last-child) {
+  margin-right: -1px;
+}
+
+.buttonGroup > button {
+  border-radius: 0;
+}
+
+.buttonGroup > button:first-child {
+  border-radius: 4px 0 0 4px;
+}
+
+.buttonGroup > button:last-child {
+  border-radius: 0 4px 4px 0;
+}

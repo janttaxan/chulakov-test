@@ -1,0 +1,30 @@
+.button {
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+
+.primary {
+  color: var(--base-0);
+  background-color: var(--main-500);
+}
+
+.outlined {
+  border-color: var(--main-200);
+}
+
+.button.primary:hover {
+  background-color: var(--main-400);
+}
+
+.button.primary:active {
+  background-color: var(--main-200);
+}
+
+.button.outlined:hover {
+  border-color: var(--main-500);
+}
+
+.button.outlined:active {
+  background-color: var(--base-100);
+}

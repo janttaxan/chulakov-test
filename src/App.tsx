@@ -1,4 +1,3 @@
-import React from 'react';
 import { rootReducer } from './store/reducer';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import { applyMiddleware, createStore } from 'redux';
@@ -16,7 +15,17 @@ function App() {
   return (
     <Provider store={store}>
       <Layout>
+
+        <div className='sort'>
+          search panel
+        </div>
+
+        <div className='view-toggler'>
+          view-toggler
+        </div>
+
         <CardListContainer/>
+
       </Layout>
     </Provider>
   );
