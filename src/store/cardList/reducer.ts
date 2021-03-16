@@ -3,6 +3,9 @@ import { TCardListActions } from './actions/TCardListActions';
 import { initialState } from '../store';
 import { EActions } from '../../enums/EActions';
 import { ICardListState } from '../../interfaces/ICardListState';
+import { sortAlphabetically } from '../../utils/sortAlphabetically';
+import { ESortingType } from '../../enums/ESortingType';
+import { sortByNumber } from '../../utils/sortByNumber';
 
 export const cardListReducer: Reducer<ICardListState, TCardListActions> = (
   state = initialState.cardList, action,
@@ -39,6 +42,34 @@ export const cardListReducer: Reducer<ICardListState, TCardListActions> = (
         cards: state.cards.map((item) =>
           item.id === action.id ? { ...item, favourite: false } : item,
         ),
+      };
+    case EActions.SORT_BY_AGE:
+      return {
+        ...state,
+        cards: sortByNumber(state.cards, action.sortType, 'age'),
+        sortGroup: { age: true, id: false, name: false },
+      };
+    case EActions.SORT_BY_ID:
+      return {
+        ...state,
+        cards: sortByNumber(state.cards, action.sortType, 'id'),
+        sortGroup: { age: false, id: true, name: false },
+      };
+    case EActions.SORT_BY_NAME:
+      return {
+        ...state,
+        cards: sortAlphabetically(state.cards, action.sortType),
+        sortGroup: { age: false, id: false, name: true },
+      };
+    case EActions.SORT_BY_INCREASE:
+      return {
+        ...state,
+        sortingType: ESortingType.increase,
+      };
+    case EActions.SORT_BY_DECREASE:
+      return {
+        ...state,
+        sortingType: ESortingType.decrease,
       };
     default:
       return state;

@@ -30,11 +30,13 @@ describe('FavoriteButton', () => {
     expect(svg.hasClass('active')).toBeFalsy();
   });
 
-  test('should use default "onlike"', () => {
+  test('should call callback after click button', () => {
     const mockCallBack = jest.fn();
     const btn = setUp(false, mockCallBack).find('.btn');
     expect(mockCallBack.mock.calls.length).toBe(0);
     btn.simulate('click');
     expect(mockCallBack.mock.calls.length).toBe(1);
+    btn.simulate('click');
+    expect(mockCallBack.mock.calls.length).toBe(2);
   });
 });

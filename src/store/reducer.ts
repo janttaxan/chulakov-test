@@ -14,6 +14,11 @@ export const rootReducer: Reducer<IRootState, TActions> = (
     case EActions.CARD_LIST_REQUEST_ERROR:
     case EActions.ADD_TO_FAVORITES:
     case EActions.REMOVE_FROM_FAVORITES:
+    case EActions.SORT_BY_AGE:
+    case EActions.SORT_BY_ID:
+    case EActions.SORT_BY_NAME:
+    case EActions.SORT_BY_DECREASE:
+    case EActions.SORT_BY_INCREASE:
       return {
         ...state,
         cardList: cardListReducer(state.cardList, action),

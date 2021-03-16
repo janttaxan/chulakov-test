@@ -1,4 +1,5 @@
 :root {
+  --main-200: #858FFF;
   --main-400: #4959FF;
   --main-500: #1B2FFF;
   --secondary-100: #FED8EE;
@@ -6,6 +7,7 @@
   --secondary-500: #F71D9F;
   --base-0: #FFF;
   --base-50: #F3F4F7;
+  --base-100: #DCE0E5;
   --base-200: #99A7B5;
   --base-300: #677B8F;
   --base-500: #012345;
@@ -48,6 +50,7 @@ button {
   background: transparent;
   cursor: pointer;
   font: inherit;
+  outline: none;
 }
 
 img {
