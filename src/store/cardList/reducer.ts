@@ -71,6 +71,16 @@ export const cardListReducer: Reducer<ICardListState, TCardListActions> = (
         ...state,
         sortingType: ESortingType.decrease,
       };
+    case EActions.SET_CARDS_VIEW:
+      return {
+        ...state,
+        tableView: false,
+      };
+    case EActions.SET_TABLE_VIEW:
+      return {
+        ...state,
+        tableView: true,
+      };
     default:
       return state;
   }

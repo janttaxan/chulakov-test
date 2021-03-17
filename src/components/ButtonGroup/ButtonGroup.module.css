@@ -2,6 +2,14 @@
   display: flex;
 }
 
+.buttonGroup.block {
+  width: 100%;
+}
+
+.buttonGroup.block > button {
+  flex: 1 1 100%;
+}
+
 .buttonGroup > button:not(:last-child) {
   margin-right: -1px;
 }

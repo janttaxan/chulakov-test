@@ -8,3 +8,5 @@ export { ImagePenguin } from './ImagePenguin';
 export { ImagePig } from './ImagePig';
 export { ImageRaccoon } from './ImageRaccoon';
 export { ImageSheep } from './ImageSheep';
+export { IconCards } from './IconCards';
+export { IconTable } from './IconTable';
