@@ -6,6 +6,7 @@ export interface ICardListState {
   cards: IRequestData[];
   sortGroup: ISortGroup;
   sortingType: ESortingType;
+  tableView: boolean;
   isLoading: boolean;
   errorValue: string;
 }

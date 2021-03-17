@@ -14,7 +14,7 @@
   padding: 24px;
 }
 
-.cardItem.hasVideo .content {
+.cardItem.hasVideo:not(.tableView) .content {
   width: calc(50% - 8px);
 }
 
@@ -52,5 +52,36 @@
 .favoriteBtn {
   position: absolute;
   top: 16px;
+  right: 16px;
+}
+
+.cardItem.tableView:not(:last-child) {
+  margin: 0 0 4px;
+}
+
+.cardItem.tableView .content {
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.cardItem.tableView .content .avatarName {
+  width: 40%;
+  min-width: 180px;
+  margin: 0 8px 0 0;
+}
+
+.cardItem.tableView .content .age {
+  width: 16%;
+  min-width: 40px;
+  margin: 0 8px 0 0;
+}
+
+.cardItem.tableView .content .phone {
+  margin: 0;
+}
+
+.cardItem.tableView .content .favoriteBtn {
+  top: calc(50% - 12px);
   right: 16px;
 }

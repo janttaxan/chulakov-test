@@ -15,17 +15,7 @@ function App() {
   return (
     <Provider store={store}>
       <Layout>
-
-        <div className='sort'>
-          search panel
-        </div>
-
-        <div className='view-toggler'>
-          view-toggler
-        </div>
-
         <CardListContainer/>
-
       </Layout>
     </Provider>
   );

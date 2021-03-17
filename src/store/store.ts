@@ -10,6 +10,7 @@ export const initialState: IRootState = {
       name: false,
     },
     sortingType: ESortingType.increase,
+    tableView: false,
     isLoading: false,
     errorValue: '',
   },

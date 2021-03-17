@@ -2,34 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb9be5bd-868c-4220-87b7-5ffdaccafd79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ButtonGroup/ButtonGroup.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ButtonGroup/ButtonGroup.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ButtonGroup/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SortPanel/SortPanel.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SortPanel/SortPanel.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SortPanel/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/ESortingType.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/ISortGroup.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/cardList/actions/sortByAge.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/cardList/actions/sortByDecrease.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/cardList/actions/sortById.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/cardList/actions/sortByIncrease.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/cardList/actions/sortByName.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/cardList/actions/sortCardList.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/sortAlphabetically.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/sortByNumber.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CardListContainer/CardListContainer.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Icons/IconCards.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Icons/IconTable.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ViewToggler/ViewToggler.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ViewToggler/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/cardList/actions/setCardsView.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/cardList/actions/setTableView.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/request.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/request.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ButtonGroup/ButtonGroup.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonGroup/ButtonGroup.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardItem/CardItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/CardItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardItem/CardItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/CardItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardList.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CardListContainer/CardListContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardListContainer/CardListContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Video/Video.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Video/Video.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Icons/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Icons/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SortPanel/SortPanel.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SortPanel/SortPanel.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SortPanel/SortPanel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SortPanel/SortPanel.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/enums/EActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/EActions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/interfaces/ICardListState.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/ICardListState.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/TActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/TActions.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/cardList/actions/TCardListActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/cardList/actions/TCardListActions.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/cardList/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/cardList/reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.ts" afterDir="false" />
@@ -246,15 +240,15 @@
       <item itemvalue="Jest.FavoriteButton.should render with &quot;favorite&quot; status" />
       <item itemvalue="Jest.FavoriteButton.should use default &quot;onlike&quot;" />
       <item itemvalue="Jest.NOOP" />
-      <item itemvalue="Jest.FavoriteButton" />
-      <item itemvalue="npm.start" />
-      <item itemvalue="npm.test:coverage" />
       <item itemvalue="Jest.CardItem" />
       <item itemvalue="Jest.checkVisibleElement.should have been visible" />
-      <item itemvalue="Jest.checkVisibleElement.should be visible" />
-      <item itemvalue="Jest.FavoriteButton.should call callback after click button" />
       <item itemvalue="Jest.Video.should render" />
       <item itemvalue="Jest.Video" />
+      <item itemvalue="Jest.FavoriteButton" />
+      <item itemvalue="Jest.checkVisibleElement.should be visible" />
+      <item itemvalue="Jest.FavoriteButton.should call callback after click button" />
+      <item itemvalue="npm.start" />
+      <item itemvalue="npm.test:coverage" />
     </list>
     <recent_temporary>
       <list>
@@ -286,7 +280,9 @@
       <workItem from="1615743377657" duration="5993000" />
       <workItem from="1615749459046" duration="7466000" />
       <workItem from="1615800324295" duration="26530000" />
-      <workItem from="1615886531614" duration="36085000" />
+      <workItem from="1615886531614" duration="36162000" />
+      <workItem from="1615980585283" duration="2172000" />
+      <workItem from="1615984598030" duration="9460000" />
     </task>
     <servers />
   </component>

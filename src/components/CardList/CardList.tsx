@@ -4,8 +4,14 @@ import { CardItem } from './CardItem';
 import { useDispatch } from 'react-redux';
 import { addToFavorites } from '../../store/cardList/actions/addToFavorites';
 import { removeFromFavorites } from '../../store/cardList/actions/removeFromFavorites';
+import classNames from 'classnames';
 
-export const CardList = ({ data }: {data: IRequestData[]}) => {
+interface ICardListProps {
+  data: IRequestData[];
+  table?: boolean;
+}
+
+export const CardList = ({ data, table = false }: ICardListProps) => {
   const dispatch = useDispatch();
 
   const handleAddToFavorites = (id: number) => {
@@ -22,8 +28,13 @@ export const CardList = ({ data }: {data: IRequestData[]}) => {
       : handleAddToFavorites(id);
   };
 
+  const cardListClasses = classNames(
+    styles.cardList,
+    { [styles.table]: table },
+  );
+
   return (
-    <ul className={styles.cardList}>
+    <ul className={cardListClasses}>
       {data.map(card => (
         <CardItem
           age={card.age}
@@ -34,6 +45,7 @@ export const CardList = ({ data }: {data: IRequestData[]}) => {
           onLike={() => handleToggleFavorite(card.favourite, card.id)}
           phone={card.phone}
           phrase={card.phrase}
+          tableView={table}
           video={card.video}
         />
       ))}

@@ -8,6 +8,8 @@ import { TSortById } from './sortById';
 import { TSortByName } from './sortByName';
 import { TSortByDecrease } from './sortByDecrease';
 import { TSortByIncrease } from './sortByIncrease';
+import { TSetTableView } from './setTableView';
+import { TSetCardsView } from './setCardsView';
 
 export type TCardListActions =
   TCardListRequest |
@@ -19,4 +21,6 @@ export type TCardListActions =
   TSortById |
   TSortByName |
   TSortByDecrease |
-  TSortByIncrease
+  TSortByIncrease |
+  TSetTableView |
+  TSetCardsView

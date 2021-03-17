@@ -1,0 +1,7 @@
+.sortPanel {
+  display: flex;
+}
+
+.sortGroup {
+  margin-right: 12px;
+}
