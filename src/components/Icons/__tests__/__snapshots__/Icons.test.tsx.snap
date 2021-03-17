@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Icons should render "Cat" icon 1`] = `
+exports[`Icons avatars should render "Cat" icon 1`] = `
 <svg
   fill="none"
   height="300"
@@ -167,7 +167,7 @@ exports[`Icons should render "Cat" icon 1`] = `
 </svg>
 `;
 
-exports[`Icons should render "Dog" icon 1`] = `
+exports[`Icons avatars should render "Dog" icon 1`] = `
 <svg
   fill="none"
   height="300"
@@ -308,7 +308,7 @@ exports[`Icons should render "Dog" icon 1`] = `
 </svg>
 `;
 
-exports[`Icons should render "Fox" icon 1`] = `
+exports[`Icons avatars should render "Fox" icon 1`] = `
 <svg
   fill="none"
   height="300"
@@ -469,7 +469,7 @@ exports[`Icons should render "Fox" icon 1`] = `
 </svg>
 `;
 
-exports[`Icons should render "Koala" icon 1`] = `
+exports[`Icons avatars should render "Koala" icon 1`] = `
 <svg
   fill="none"
   height="300"
@@ -594,7 +594,7 @@ exports[`Icons should render "Koala" icon 1`] = `
 </svg>
 `;
 
-exports[`Icons should render "Lion" icon 1`] = `
+exports[`Icons avatars should render "Lion" icon 1`] = `
 <svg
   fill="none"
   height="300"
@@ -710,7 +710,7 @@ exports[`Icons should render "Lion" icon 1`] = `
 </svg>
 `;
 
-exports[`Icons should render "Owl" icon 1`] = `
+exports[`Icons avatars should render "Owl" icon 1`] = `
 <svg
   fill="none"
   height="300"
@@ -826,7 +826,7 @@ exports[`Icons should render "Owl" icon 1`] = `
 </svg>
 `;
 
-exports[`Icons should render "Penguin" icon 1`] = `
+exports[`Icons avatars should render "Penguin" icon 1`] = `
 <svg
   fill="none"
   height="300"
@@ -966,7 +966,7 @@ exports[`Icons should render "Penguin" icon 1`] = `
 </svg>
 `;
 
-exports[`Icons should render "Pig" icon 1`] = `
+exports[`Icons avatars should render "Pig" icon 1`] = `
 <svg
   fill="none"
   height="300"
@@ -1115,7 +1115,7 @@ exports[`Icons should render "Pig" icon 1`] = `
 </svg>
 `;
 
-exports[`Icons should render "Raccoon" icon 1`] = `
+exports[`Icons avatars should render "Raccoon" icon 1`] = `
 <svg
   fill="none"
   height="300"
@@ -1279,7 +1279,7 @@ exports[`Icons should render "Raccoon" icon 1`] = `
 </svg>
 `;
 
-exports[`Icons should render "Sheep" icon 1`] = `
+exports[`Icons avatars should render "Sheep" icon 1`] = `
 <svg
   fill="none"
   height="300"
@@ -1412,6 +1412,92 @@ exports[`Icons should render "Sheep" icon 1`] = `
   <path
     d="M217.766 106.283H212.757C212.436 106.283 212.131 106.338 211.835 106.416C211.611 105.892 211.397 105.35 211.136 104.896C210.43 103.05 207.878 99.611 198.69 98.969C196.527 98.819 192.158 98.565 187.209 98.565C172.671 98.565 166.343 100.697 163.402 102.503C161.133 99.335 157.118 96.122 150.985 96.122C144.509 96.122 140.766 100.052 138.847 103.059C136.325 101.165 130.293 98.565 114.226 98.565C109.279 98.565 104.91 98.818 102.745 98.969C93.557 99.611 91.005 103.05 90.299 104.896C90.038 105.35 89.825 105.892 89.599 106.416C89.303 106.338 89.001 106.283 88.68 106.283H83.67C81.652 106.283 80.017 107.918 80.017 109.937C80.017 111.956 81.652 113.589 83.67 113.589H87.865C87.386 118.768 88.187 124.644 90.815 129.349C94.02 135.085 99.504 138.243 106.253 138.243C108.894 138.243 111.774 137.771 114.817 136.836C135.852 130.378 141.003 119.801 142.241 115.553C143.16 112.4 143.006 109.348 141.852 106.825C142.819 104.831 145.511 100.6 150.985 100.6C156.128 100.6 158.869 103.617 160.169 105.744C158.505 108.44 158.138 111.929 159.195 115.553C160.433 119.802 165.584 130.378 186.619 136.836C189.66 137.771 192.542 138.243 195.181 138.243C201.932 138.243 207.415 135.085 210.619 129.349C213.247 124.644 214.05 118.768 213.57 113.589H217.765C219.783 113.589 221.418 111.956 221.418 109.937C221.419 107.918 219.784 106.283 217.766 106.283ZM135.796 113.674C134.295 118.823 127.477 125.926 112.845 130.42C105.093 132.798 99.653 131.393 96.677 126.071C93.326 120.077 94.179 111.389 96.237 108.043L96.563 107.514L96.583 107.401C97.117 106.922 98.989 105.964 103.212 105.668C105.29 105.523 109.482 105.282 114.227 105.282C131.346 105.282 134.768 108.279 135.279 108.878C136.186 109.944 136.373 111.69 135.796 113.674ZM204.761 126.071C201.785 131.393 196.345 132.797 188.593 130.42C173.96 125.926 167.144 118.823 165.643 113.674C165.065 111.69 165.253 109.945 166.158 108.879C166.671 108.28 170.092 105.283 187.21 105.283C191.954 105.283 196.147 105.524 198.225 105.669C202.446 105.965 204.318 106.923 204.853 107.402L204.876 107.515L205.201 108.044C207.259 111.389 208.112 120.077 204.761 126.071Z"
     fill="#3F1722"
+  />
+</svg>
+`;
+
+exports[`Icons interface icons should render IconCards 1`] = `
+<svg
+  fill="none"
+  height="16"
+  viewBox="0 0 16 16"
+  width="16"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M1 2C1 1.44772 1.44772 1 2 1H6.5C7.05228 1 7.5 1.44772 7.5 2V5.5C7.5 6.60457 6.60457 7.5 5.5 7.5H2C1.44772 7.5 1 7.05228 1 6.5V2Z"
+    fill="#011C37"
+  />
+  <path
+    d="M1 9.5C1 8.94772 1.44772 8.5 2 8.5H5.5C6.60457 8.5 7.5 9.39543 7.5 10.5V14C7.5 14.5523 7.05228 15 6.5 15H2C1.44772 15 1 14.5523 1 14V9.5Z"
+    fill="#011C37"
+  />
+  <path
+    d="M8.5 2C8.5 1.44772 8.94772 1 9.5 1H14C14.5523 1 15 1.44772 15 2V6.5C15 7.05228 14.5523 7.5 14 7.5H10.5C9.39543 7.5 8.5 6.60457 8.5 5.5V2Z"
+    fill="#011C37"
+  />
+  <path
+    d="M8.5 10.5C8.5 9.39543 9.39543 8.5 10.5 8.5H14C14.5523 8.5 15 8.94772 15 9.5V14C15 14.5523 14.5523 15 14 15H9.5C8.94772 15 8.5 14.5523 8.5 14V10.5Z"
+    fill="#011C37"
+  />
+</svg>
+`;
+
+exports[`Icons interface icons should render IconTable 1`] = `
+<svg
+  fill="none"
+  height="16"
+  viewBox="0 0 16 16"
+  width="16"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <rect
+    fill="#011C37"
+    height="3"
+    rx="1"
+    width="3"
+    x="1"
+    y="1.5"
+  />
+  <rect
+    fill="#011C37"
+    height="3"
+    rx="1"
+    width="3"
+    x="1"
+    y="6.5"
+  />
+  <rect
+    fill="#011C37"
+    height="3"
+    rx="1"
+    width="3"
+    x="1"
+    y="11.5"
+  />
+  <rect
+    fill="#011C37"
+    height="3"
+    rx="1"
+    width="10"
+    x="5"
+    y="1.5"
+  />
+  <rect
+    fill="#011C37"
+    height="3"
+    rx="1"
+    width="10"
+    x="5"
+    y="6.5"
+  />
+  <rect
+    fill="#011C37"
+    height="3"
+    rx="1"
+    width="10"
+    x="5"
+    y="11.5"
   />
 </svg>
 `;

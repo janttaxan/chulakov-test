@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb9be5bd-868c-4220-87b7-5ffdaccafd79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/CardListContainer/CardListContainer.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Icons/IconCards.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Icons/IconTable.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ViewToggler/ViewToggler.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ViewToggler/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/cardList/actions/setCardsView.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/cardList/actions/setTableView.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Video/__test__/Video.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ButtonGroup/ButtonGroup.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonGroup/ButtonGroup.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardItem/CardItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/CardItem.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardItem/CardItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/CardItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardList.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardListContainer/CardListContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardListContainer/CardListContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Icons/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Icons/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SortPanel/SortPanel.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SortPanel/SortPanel.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SortPanel/SortPanel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SortPanel/SortPanel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enums/EActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/EActions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/ICardListState.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/ICardListState.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/cardList/actions/TCardListActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/cardList/actions/TCardListActions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/cardList/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/cardList/reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardItem/__tests__/CardItem.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/__tests__/CardItem.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Icons/__tests__/Icons.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Icons/__tests__/Icons.test.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +57,7 @@
       <command value="npm run test" />
     </option>
   </component>
-  <component name="RunManager" selected="Jest.Video">
+  <component name="RunManager" selected="Jest.CardItem.should render in table view">
     <configuration name="CardItem" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -93,16 +71,17 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="FavoriteButton" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="CardItem.should render in table view" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/components/CardList/CardItem/FavoriteButton/__tests__/FavoriteButton.test.tsx" />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/CardList/CardItem/__tests__/CardItem.test.tsx" />
       <test-names>
-        <test-name value="FavoriteButton" />
+        <test-name value="CardItem" />
+        <test-name value="should render in table view" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -226,6 +205,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="test:coverage" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -244,19 +233,20 @@
       <item itemvalue="Jest.checkVisibleElement.should have been visible" />
       <item itemvalue="Jest.Video.should render" />
       <item itemvalue="Jest.Video" />
-      <item itemvalue="Jest.FavoriteButton" />
       <item itemvalue="Jest.checkVisibleElement.should be visible" />
       <item itemvalue="Jest.FavoriteButton.should call callback after click button" />
       <item itemvalue="npm.start" />
       <item itemvalue="npm.test:coverage" />
+      <item itemvalue="npm.test" />
+      <item itemvalue="Jest.CardItem.should render in table view" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.test:coverage" />
+        <item itemvalue="npm.test" />
+        <item itemvalue="npm.start" />
         <item itemvalue="Jest.FavoriteButton.should call callback after click button" />
         <item itemvalue="Jest.checkVisibleElement.should be visible" />
-        <item itemvalue="Jest.FavoriteButton" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +272,8 @@
       <workItem from="1615800324295" duration="26530000" />
       <workItem from="1615886531614" duration="36162000" />
       <workItem from="1615980585283" duration="2172000" />
-      <workItem from="1615984598030" duration="9460000" />
+      <workItem from="1615984598030" duration="9700000" />
+      <workItem from="1615997637277" duration="1470000" />
     </task>
     <servers />
   </component>

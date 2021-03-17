@@ -36,4 +36,21 @@ describe('CardItem', () => {
     expect(component.hasClass('hasVideo')).toBeFalsy();
     expect(component.find('.videoWrapper').isEmptyRender()).toBeTruthy();
   });
+
+  test('should render in table view', () => {
+    const component = shallow(
+      <CardItem
+        onLike={NOOP}
+        favourite={false}
+        name={'Troy Hard'}
+        age={54}
+        phone={'221-21-12'}
+        image={EAvatar.sheep}
+        phrase={'Hello!'}
+        tableView
+      />,
+    );
+    expect(component.hasClass('tableView')).toBeTruthy();
+    expect(component.find('.phrase').isEmptyRender()).toBeTruthy();
+  });
 });

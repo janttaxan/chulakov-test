@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Video shiuld render with "boy" 1`] = `
+<video
+  className="video"
+  controls={true}
+  loop={true}
+  muted={true}
+  src={null}
+/>
+`;
+
+exports[`Video shiuld render with "shoe" 1`] = `
+<video
+  className="video"
+  controls={true}
+  loop={true}
+  muted={true}
+  src={null}
+/>
+`;
