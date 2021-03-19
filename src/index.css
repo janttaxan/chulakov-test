@@ -53,6 +53,11 @@ button {
   outline: none;
 }
 
+input {
+  font: inherit;
+  outline: none;
+}
+
 img {
   display: block;
   width: 100%;

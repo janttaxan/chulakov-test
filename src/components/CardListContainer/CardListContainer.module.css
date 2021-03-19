@@ -4,3 +4,11 @@
   justify-content: space-between;
   padding: 16px 0;
 }
+
+.wrapper {
+  display: flex;
+}
+
+.searchField {
+  margin-right: 12px;
+}
