@@ -1,0 +1,29 @@
+.searchField {
+  position: relative;
+}
+
+.field {
+  height: 30px;
+  width: 220px;
+  padding: 8px 30px 8px 8px;
+  border: 1px solid var(--base-200);
+  border-radius: 4px;
+}
+
+.field::placeholder {
+  color: var(--base-300);
+}
+
+.field:hover {
+  border-color: var(--base-300);
+}
+
+.field:focus {
+  border-color: var(--main-400);
+}
+
+.resetBtnWrapper {
+  position: absolute;
+  right: 8px;
+  top: calc(50% - 8px);
+}

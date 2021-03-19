@@ -17,6 +17,7 @@ import { ISortGroup } from '../../interfaces/ISortGroup';
 import { ViewToggler } from '../ViewToggler';
 import { setCardsView } from '../../store/cardList/actions/setCardsView';
 import { setTableView } from '../../store/cardList/actions/setTableView';
+import { SearchField } from '../SearchField';
 
 export const CardListContainer = () => {
   const cards = useSelector<IRootState, IRequestData[]>(state => state.cardList.cards);
@@ -57,11 +58,16 @@ export const CardListContainer = () => {
           isActiveGroup={sortGroup}
           isActiveType={sortingType}
         />
-        <ViewToggler
-          isTableView={tableView}
-          onCards={() => dispatch(setCardsView())}
-          onTable={() => dispatch(setTableView())}
-        />
+        <div className={styles.wrapper}>
+          <div className={styles.searchField}>
+            <SearchField/>
+          </div>
+          <ViewToggler
+            isTableView={tableView}
+            onCards={() => dispatch(setCardsView())}
+            onTable={() => dispatch(setTableView())}
+          />
+        </div>
       </div>
       <CardList data={cards} table={tableView}/>
       {loading && !errorValue && <p>Загрузка...</p>}

@@ -13,6 +13,7 @@ import { ImageRaccoon } from '../ImageRaccoon';
 import { ImageSheep } from '../ImageSheep';
 import { IconCards } from '../IconCards';
 import { IconTable } from '../IconTable';
+import { IconClose } from '../IconClose';
 
 const setUp = (iconName: EAvatar) => {
   switch (iconName) {
@@ -101,6 +102,11 @@ describe('Icons', () => {
 
     test('should render IconTable', () => {
       const component = shallow(<IconTable/>);
+      expect(component).toMatchSnapshot();
+    });
+
+    test('should render IconClose', () => {
+      const component = shallow(<IconClose/>);
       expect(component).toMatchSnapshot();
     });
   });

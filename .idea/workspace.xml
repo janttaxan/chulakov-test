@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb9be5bd-868c-4220-87b7-5ffdaccafd79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Video/__test__/Video.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Icons/IconClose.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchField/SearchField.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchField/SearchField.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchField/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_03_2021_16_50_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_03_2021_16_50__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardItem/__tests__/CardItem.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/__tests__/CardItem.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardListContainer/CardListContainer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardListContainer/CardListContainer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardListContainer/CardListContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardListContainer/CardListContainer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Icons/__tests__/Icons.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Icons/__tests__/Icons.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Icons/__tests__/__snapshots__/Icons.test.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Icons/__tests__/__snapshots__/Icons.test.tsx.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,18 +241,18 @@
       <item itemvalue="Jest.checkVisibleElement.should have been visible" />
       <item itemvalue="Jest.Video.should render" />
       <item itemvalue="Jest.Video" />
+      <item itemvalue="Jest.CardItem.should render in table view" />
       <item itemvalue="Jest.checkVisibleElement.should be visible" />
       <item itemvalue="Jest.FavoriteButton.should call callback after click button" />
       <item itemvalue="npm.start" />
       <item itemvalue="npm.test:coverage" />
       <item itemvalue="npm.test" />
-      <item itemvalue="Jest.CardItem.should render in table view" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.test:coverage" />
         <item itemvalue="npm.test" />
-        <item itemvalue="npm.start" />
         <item itemvalue="Jest.FavoriteButton.should call callback after click button" />
         <item itemvalue="Jest.checkVisibleElement.should be visible" />
       </list>
@@ -273,7 +281,8 @@
       <workItem from="1615886531614" duration="36162000" />
       <workItem from="1615980585283" duration="2172000" />
       <workItem from="1615984598030" duration="9700000" />
-      <workItem from="1615997637277" duration="1470000" />
+      <workItem from="1615997637277" duration="2216000" />
+      <workItem from="1616162478119" duration="3736000" />
     </task>
     <servers />
   </component>
