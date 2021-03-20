@@ -21,6 +21,8 @@ export const rootReducer: Reducer<IRootState, TActions> = (
     case EActions.SORT_BY_INCREASE:
     case EActions.SET_CARDS_VIEW:
     case EActions.SET_TABLE_VIEW:
+    case EActions.SET_SEARCH_VALUE:
+    case EActions.RESET_SEARCH_VALUE:
       return {
         ...state,
         cardList: cardListReducer(state.cardList, action),

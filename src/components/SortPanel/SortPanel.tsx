@@ -3,7 +3,6 @@ import { Button } from '../Button';
 import { ButtonGroup } from '../ButtonGroup';
 import { ISortGroup } from '../../interfaces/ISortGroup';
 import { ESortingType } from '../../enums/ESortingType';
-import { IconTable } from '../Icons';
 
 interface ISortPanelProps {
   onSortByAge: () => void;
