@@ -4,6 +4,7 @@ import { ESortingType } from '../enums/ESortingType';
 export const initialState: IRootState = {
   cardList: {
     cards: [],
+    searchValue: '',
     sortGroup: {
       age: false,
       id: true,

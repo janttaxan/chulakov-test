@@ -2,18 +2,23 @@ import styles from './SearchField.module.css';
 import { IconClose } from '../Icons/IconClose';
 import { ChangeEvent, useState } from 'react';
 
-export const SearchField = () => {
+interface ISearchFieldProps {
+  searchValue: string;
+  onChange: (event: ChangeEvent<HTMLInputElement>) => void;
+  onReset: () => void;
+}
+
+export const SearchField = ({ searchValue, onChange, onReset }: ISearchFieldProps) => {
   const [isEmpty, setIsEmpty] = useState(true);
-  const [value, setValue] = useState('');
 
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
     event.target.value ? setIsEmpty(false) : setIsEmpty(true);
-    setValue(event.target.value);
+    onChange(event);
   };
 
   const handleReset = () => {
-    setValue('');
     setIsEmpty(true);
+    onReset();
   };
 
   return (
@@ -22,7 +27,7 @@ export const SearchField = () => {
         className={styles.field}
         placeholder={'Поиск по имени'}
         type="text"
-        value={value}
+        value={searchValue}
         onChange={handleChange}
       />
       {!isEmpty && (

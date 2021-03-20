@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { IRootState } from '../../interfaces/IRootState';
 import { IRequestData } from '../../interfaces/IRequestData';
 import { CardList } from '../CardList';
-import { useEffect } from 'react';
+import { ChangeEvent, useEffect } from 'react';
 import { cardListRequestFetch } from '../../store/cardList/actions/cardListRequestFetch';
 import { SortPanel } from '../SortPanel';
 import { sortByName } from '../../store/cardList/actions/sortByName';
@@ -18,6 +18,8 @@ import { ViewToggler } from '../ViewToggler';
 import { setCardsView } from '../../store/cardList/actions/setCardsView';
 import { setTableView } from '../../store/cardList/actions/setTableView';
 import { SearchField } from '../SearchField';
+import { setSearchValue } from '../../store/cardList/actions/setSearchValue';
+import { resetSearchValue } from '../../store/cardList/actions/resetSearchValue';
 
 export const CardListContainer = () => {
   const cards = useSelector<IRootState, IRequestData[]>(state => state.cardList.cards);
@@ -26,6 +28,7 @@ export const CardListContainer = () => {
   const sortingType = useSelector<IRootState, ESortingType>(state => state.cardList.sortingType);
   const sortGroup = useSelector<IRootState, ISortGroup>(state => state.cardList.sortGroup);
   const tableView = useSelector<IRootState, boolean>(state => state.cardList.tableView);
+  const searchValue = useSelector<IRootState, string>(state => state.cardList.searchValue);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -46,6 +49,18 @@ export const CardListContainer = () => {
     dispatch(sortCardList());
   };
 
+  const handleChangeSearch = (event: ChangeEvent<HTMLInputElement>) => {
+    dispatch(setSearchValue(
+      event.target.value),
+    );
+  };
+
+  const filterCards = (cards: IRequestData[]) => {
+    return cards.filter((card) =>
+      card.name.trim().toLowerCase().includes(searchValue.toLowerCase()),
+    );
+  };
+
   return (
     <>
       <div className={styles.settingsPanel}>
@@ -60,7 +75,11 @@ export const CardListContainer = () => {
         />
         <div className={styles.wrapper}>
           <div className={styles.searchField}>
-            <SearchField/>
+            <SearchField
+              searchValue={searchValue}
+              onChange={handleChangeSearch}
+              onReset={() => dispatch(resetSearchValue())}
+            />
           </div>
           <ViewToggler
             isTableView={tableView}
@@ -69,7 +88,10 @@ export const CardListContainer = () => {
           />
         </div>
       </div>
-      <CardList data={cards} table={tableView}/>
+      <CardList
+        data={filterCards(cards)}
+        table={tableView}
+      />
       {loading && !errorValue && <p>Загрузка...</p>}
       {errorValue && (
         <>

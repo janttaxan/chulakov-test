@@ -10,6 +10,8 @@ import { TSortByDecrease } from './sortByDecrease';
 import { TSortByIncrease } from './sortByIncrease';
 import { TSetTableView } from './setTableView';
 import { TSetCardsView } from './setCardsView';
+import { TSetSearchValue } from './setSearchValue';
+import { TResetSearchValue } from './resetSearchValue';
 
 export type TCardListActions =
   TCardListRequest |
@@ -23,4 +25,6 @@ export type TCardListActions =
   TSortByDecrease |
   TSortByIncrease |
   TSetTableView |
-  TSetCardsView
+  TSetCardsView |
+  TSetSearchValue |
+  TResetSearchValue

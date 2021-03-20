@@ -81,6 +81,16 @@ export const cardListReducer: Reducer<ICardListState, TCardListActions> = (
         ...state,
         tableView: true,
       };
+    case EActions.SET_SEARCH_VALUE:
+      return {
+        ...state,
+        searchValue: action.value,
+      };
+    case EActions.RESET_SEARCH_VALUE:
+      return {
+        ...state,
+        searchValue: '',
+      };
     default:
       return state;
   }
