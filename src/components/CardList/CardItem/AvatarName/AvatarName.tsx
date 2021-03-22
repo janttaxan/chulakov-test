@@ -48,6 +48,6 @@ export const AvatarName = ({ image, name }: IAvatarNameProps) => (
     <div className={styles.image}>
       {getAvatar(image)}
     </div>
-    <div className={styles.name}>{name}</div>
+    <h3 className={styles.name}>{name}</h3>
   </div>
 );

@@ -1,7 +1,6 @@
 .cardList:not(.table) {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 16px;
   grid-row-gap: 16px;
 }
@@ -9,4 +8,14 @@
 .cardList.table {
   display: flex;
   flex-direction: column;
+}
+
+@media all and (max-width: 540px) {
+  .cardList:not(.table) {
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+  }
+
+  .cardList.table {
+  }
 }

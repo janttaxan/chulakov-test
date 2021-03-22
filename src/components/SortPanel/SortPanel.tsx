@@ -3,6 +3,7 @@ import { Button } from '../Button';
 import { ButtonGroup } from '../ButtonGroup';
 import { ISortGroup } from '../../interfaces/ISortGroup';
 import { ESortingType } from '../../enums/ESortingType';
+import { useEffect, useState } from 'react';
 
 interface ISortPanelProps {
   onSortByAge: () => void;
@@ -15,6 +16,22 @@ interface ISortPanelProps {
 }
 
 export const SortPanel = (props: ISortPanelProps) => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      document.documentElement.clientWidth > 540
+        ? setIsMobile(false)
+        : setIsMobile(true);
+    };
+    handleResize();
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  });
+
   const {
     onSortByAge,
     onSortById,
@@ -28,7 +45,7 @@ export const SortPanel = (props: ISortPanelProps) => {
   return (
     <div className={styles.sortPanel}>
       <div className={styles.sortGroup}>
-        <ButtonGroup>
+        <ButtonGroup block={isMobile}>
           <Button
             text={'ID'}
             onClick={onSortById}
@@ -50,7 +67,7 @@ export const SortPanel = (props: ISortPanelProps) => {
         </ButtonGroup>
       </div>
       <div className={styles.sortingType}>
-        <ButtonGroup>
+        <ButtonGroup block={isMobile}>
           <Button
             text={'По возрастанию'}
             onClick={onSortByIncrease}

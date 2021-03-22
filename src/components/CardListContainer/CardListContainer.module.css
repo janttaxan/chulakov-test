@@ -7,8 +7,32 @@
 
 .wrapper {
   display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
 }
 
-.searchField {
-  margin-right: 12px;
+.wrapper > * {
+  margin: 8px 12px 0 0;
+}
+
+@media all and (max-width: 540px) {
+  .settingsPanel {
+    flex-wrap: wrap;
+  }
+
+  .wrapper {
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    margin: 16px 0 0;
+  }
+
+  .wrapper > * {
+    margin: 0;
+  }
+
+  .searchField {
+    flex: 1 1 100%;
+    margin-right: 12px;
+  }
 }

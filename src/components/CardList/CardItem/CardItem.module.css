@@ -55,6 +55,8 @@
   right: 16px;
 }
 
+/* table view */
+
 .cardItem.tableView:not(:last-child) {
   margin: 0 0 4px;
 }
@@ -84,4 +86,49 @@
 .cardItem.tableView .content .favoriteBtn {
   top: calc(50% - 12px);
   right: 16px;
+}
+
+@media all and (max-width: 540px) {
+  .cardItem.hasVideo {
+    grid-area: auto;
+    flex-direction: column;
+  }
+
+  .cardItem.hasVideo:not(.tableView) .content {
+    width: 100%;
+  }
+
+  .content {
+    padding: 12px;
+  }
+
+  .videoWrapper {
+    flex: 1 1 100%;
+  }
+
+  .videoWrapper video {
+    border-radius: 0 0 12px 12px;
+  }
+
+  .favoriteBtn {
+    top: 12px;
+    right: 12px;
+  }
+
+  /* table view */
+  .cardItem.tableView .content {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
+  }
+
+  .cardItem.tableView .content .avatarName,
+  .cardItem.tableView .content .age {
+    width: 100%;
+  }
+
+  .cardItem.tableView .content .favoriteBtn {
+    top: 12px;
+    right: 12px;
+  }
 }
