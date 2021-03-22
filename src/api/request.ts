@@ -1,10 +1,9 @@
 import data from './data.json';
 import { IRequestData } from '../interfaces/IRequestData';
 
-/** True = 75%, False = 25% */
+/** True = 65%, False = 35% */
 const rejectByChance = (): boolean => {
-  // return Math.random() <= 0.25;
-  return false;
+  return Math.random() <= 0.35;
 };
 
 /** Emulate request */

@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb9be5bd-868c-4220-87b7-5ffdaccafd79" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Loader/Loader.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Loader/Loader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Loader/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardItem/AvatarName/AvatarName.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/AvatarName/AvatarName.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardItem/AvatarName/AvatarName.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/AvatarName/AvatarName.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardItem/CardItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardItem/CardItem.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/request.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/request.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CardListContainer/CardListContainer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardListContainer/CardListContainer.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchField/SearchField.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchField/SearchField.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardListContainer/CardListContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardListContainer/CardListContainer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SortPanel/SortPanel.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SortPanel/SortPanel.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SortPanel/SortPanel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SortPanel/SortPanel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -289,7 +285,7 @@
       <workItem from="1616313678222" duration="5591000" />
       <workItem from="1616322061980" duration="748000" />
       <workItem from="1616322902523" duration="6446000" />
-      <workItem from="1616421957201" duration="8104000" />
+      <workItem from="1616421957201" duration="13118000" />
     </task>
     <servers />
   </component>

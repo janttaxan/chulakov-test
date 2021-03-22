@@ -1,18 +1,31 @@
 .sortPanel {
   display: flex;
-  flex-wrap: wrap;
-  width: 100%;
 }
 
-.sortGroup, .sortingType {
-  margin: 8px 12px 0 0;
-  flex: 1 1 100%;
+.sortGroup {
+  margin-right: 12px;
+}
+
+@media all and (max-width: 800px) {
+  .sortPanel {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .sortGroup, .sortingType {
+    flex: 1 1 100%;
+  }
+
+  .sortGroup {
+    margin: 0 0 12px;
+  }
 }
 
 @media all and (max-width: 540px) {
   .sortGroup {
     margin: 0;
   }
+
   .sortingType {
     margin: 8px 0 0;
   }
