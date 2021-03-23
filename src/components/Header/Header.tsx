@@ -54,7 +54,9 @@ export const Header = () => {
       <a
         className={styles.headerLink}
         href="https://github.com/janttaxan/chulakov-test"
-        target="_blank">
+        target="_blank"
+        rel="noreferrer"
+      >
         GitHub
         <svg
           className={styles.icon}
