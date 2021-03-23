@@ -2,7 +2,8 @@ import styles from './Video.module.css';
 import { EVideos } from '../../enums/EVideos';
 import boyVideoUrl from '../../videos/boy.mp4';
 import shoeVideoUrl from '../../videos/shoe.mp4';
-import { useRef } from 'react';
+import boyPoster from '../../videos/posters/boy.jpg';
+import shoePoster from '../../videos/posters/shoe.jpg';
 
 function getVideo(video: EVideos) {
   switch (video) {
@@ -13,44 +14,22 @@ function getVideo(video: EVideos) {
   }
 }
 
-export const Video = ({ video }: {video: EVideos}) => {
-  const videoEl = useRef<HTMLVideoElement>(null);
+function getPoster(video: EVideos) {
+  switch (video) {
+    case EVideos.boy:
+      return boyPoster;
+    case EVideos.shoe:
+      return shoePoster;
+  }
+}
 
-  // const playVideo = () => {
-  //   videoEl.current?.play();
-  // };
-  //
-  // const pauseVideo = () => {
-  //   videoEl.current?.pause();
-  // };
-  //
-  // const handleScroll = () => {
-  //   if (videoEl.current) {
-  //     if (checkVisibleElement(videoEl.current)) {
-  //       playVideo();
-  //     } else {
-  //       pauseVideo();
-  //     }
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   handleScroll();
-  //   window.addEventListener('scroll', handleScroll);
-  //
-  //   return () => {
-  //     window.removeEventListener('scroll', handleScroll);
-  //   };
-  // });
-
-  return (
-    <video
-      className={styles.video}
-      src={getVideo(video)}
-      ref={videoEl}
-      controls
-      loop
-      muted
-    />
-  );
-};
+export const Video = ({ video }: {video: EVideos}) => (
+  <video
+    className={styles.video}
+    src={getVideo(video)}
+    poster={getPoster(video)}
+    controls
+    loop
+    muted
+  />
+);

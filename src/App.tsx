@@ -7,6 +7,8 @@ import { Layout } from './components/Layout/Layout';
 import { CardListContainer } from './components/CardListContainer';
 import { Header } from './components/Header/Header';
 import { ButtonUp } from './components/ButtonUp';
+import { useEffect } from 'react';
+import { addScrollBehavior } from './utils/addScrollBehavior';
 
 const store = createStore(
   rootReducer,
@@ -14,14 +16,17 @@ const store = createStore(
 );
 
 function App() {
+
+  useEffect(() => {
+    addScrollBehavior().then();
+  });
+
   return (
     <Provider store={store}>
+      <Header/>
       <Layout>
-        <Header/>
-        <main>
-          <CardListContainer/>
-          <ButtonUp/>
-        </main>
+        <CardListContainer/>
+        <ButtonUp/>
       </Layout>
     </Provider>
   );

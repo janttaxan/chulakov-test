@@ -1,23 +1,17 @@
 .layout {
   max-width: 1140px;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 80px 40px 40px;
 }
 
 @media all and (max-width: 960px) {
   .layout {
-    padding: 0 24px;
-  }
-}
-
-@media all and (max-width: 800px) {
-  .layout {
-    padding: 0 24px;
+    padding: 80px 24px 40px;
   }
 }
 
 @media all and (max-width: 540px) {
   .layout {
-    padding: 0 16px;
+    padding: 64px 16px 40px;
   }
 }
