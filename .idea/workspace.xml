@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb9be5bd-868c-4220-87b7-5ffdaccafd79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/store/cardList/actions/resetSearchValue.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/cardList/actions/setSearchValue.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ButtonUp/ButtonUp.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ButtonUp/ButtonUp.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ButtonUp/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardListContainer/CardListContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardListContainer/CardListContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchField/SearchField.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchField/SearchField.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SortPanel/SortPanel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SortPanel/SortPanel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enums/EActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/EActions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/ICardListState.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/ICardListState.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/cardList/actions/TCardListActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/cardList/actions/TCardListActions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/cardList/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/cardList/reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="CONST" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/store/actions" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -66,7 +60,7 @@
       <command value="npm run test" />
     </option>
   </component>
-  <component name="RunManager" selected="Jest.CardItem.should render in table view">
+  <component name="RunManager" selected="npm.start">
     <configuration name="CardItem" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -284,7 +278,11 @@
       <workItem from="1615984598030" duration="9700000" />
       <workItem from="1615997637277" duration="2216000" />
       <workItem from="1616162478119" duration="3854000" />
-      <workItem from="1616245749138" duration="11246000" />
+      <workItem from="1616245749138" duration="11928000" />
+      <workItem from="1616313678222" duration="5591000" />
+      <workItem from="1616322061980" duration="748000" />
+      <workItem from="1616322902523" duration="6446000" />
+      <workItem from="1616421957201" duration="23211000" />
     </task>
     <servers />
   </component>

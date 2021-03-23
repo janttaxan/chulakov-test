@@ -7,8 +7,50 @@
 
 .wrapper {
   display: flex;
+  justify-content: flex-end;
 }
 
 .searchField {
   margin-right: 12px;
+}
+
+.errorMessage {
+  display: block;
+  padding: 12px;
+  border: 1px solid var(--error);
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 24px 0 12px;
+}
+
+@media all and (max-width: 800px) {
+  .wrapper {
+    flex-wrap: wrap;
+  }
+
+  .searchField {
+    margin: 0 0 12px 0;
+  }
+}
+
+@media all and (max-width: 540px) {
+  .settingsPanel {
+    flex-wrap: wrap;
+  }
+
+  .wrapper {
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    margin: 16px 0 0;
+  }
+
+  .wrapper > * {
+    margin: 0;
+  }
+
+  .searchField {
+    flex: 1 1 100%;
+    margin-right: 12px;
+  }
 }

@@ -1,0 +1,31 @@
+.buttonUp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 16px;
+  bottom: 32px;
+  width: 48px;
+  height: 48px;
+  background-color: var(--secondary-100);
+  border-radius: 50%;
+  box-shadow: var(--shadow);
+  transition: opacity 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+
+.buttonUp svg {
+  transition: transform 0.2s;
+}
+
+.buttonUp.isHidden {
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+.buttonUp:hover svg {
+  transform: translateY(-3px);
+}
+
+.buttonUp:active {
+  box-shadow: none;
+}

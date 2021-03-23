@@ -5,6 +5,8 @@ import thunk from 'redux-thunk';
 import { Provider } from 'react-redux';
 import { Layout } from './components/Layout/Layout';
 import { CardListContainer } from './components/CardListContainer';
+import { Header } from './components/Header/Header';
+import { ButtonUp } from './components/ButtonUp';
 
 const store = createStore(
   rootReducer,
@@ -15,7 +17,11 @@ function App() {
   return (
     <Provider store={store}>
       <Layout>
-        <CardListContainer/>
+        <Header/>
+        <main>
+          <CardListContainer/>
+          <ButtonUp/>
+        </main>
       </Layout>
     </Provider>
   );
