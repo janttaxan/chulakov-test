@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb9be5bd-868c-4220-87b7-5ffdaccafd79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ButtonUp/ButtonUp.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ButtonUp/ButtonUp.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ButtonUp/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/addScrollBehavior.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/videos/posters/boy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/videos/posters/shoe.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Video/Video.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Video/Video.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/checkVisibleElement.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +54,11 @@
       <recent name="C:\Users\Asus\Documents\Pet projects\chulakov-test\src\store\actions" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Asus\Documents\Pet projects\chulakov-test\src\videos\posters" />
       <recent name="C:\Users\Asus\Documents\Pet projects\chulakov-test\src\store\cardList\actions" />
       <recent name="C:\Users\Asus\Documents\Pet projects\chulakov-test\src\store\cardList" />
       <recent name="C:\Users\Asus\Documents\Pet projects\chulakov-test\src\components" />
       <recent name="C:\Users\Asus\Documents\Pet projects\chulakov-test\src\enums" />
-      <recent name="C:\Users\Asus\Documents\Pet projects\chulakov-test\src\api" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -282,7 +288,8 @@
       <workItem from="1616313678222" duration="5591000" />
       <workItem from="1616322061980" duration="748000" />
       <workItem from="1616322902523" duration="6446000" />
-      <workItem from="1616421957201" duration="23211000" />
+      <workItem from="1616421957201" duration="23287000" />
+      <workItem from="1616490414192" duration="3612000" />
     </task>
     <servers />
   </component>
